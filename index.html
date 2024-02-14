@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <style>
+      /* Your custom CSS styles here */
+    </style>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Pragya Rajput</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    
+
+    <main>
+      <section data-aos="fade-up" id="about" class="container py-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>About Me</h2>
+            <p>
+              Hello! I'm Pragya Rajput, a passionate developer. I am a fresher in the field of web developer. I specialize in
+              designing and dveeloping beautiful websites and have worked on various projects related
+              to web developing and designing.
+            </p>
+          </div>
+          <div class="col-lg-6 d-flex">
+            <!-- You can add an image here -->
+            <img
+              src="myself.jpg"
+              src="image-2.jpg"
+              class="img-fluid"
+              alt="Your Name"
+              style="height: 200px;margin-left: auto;"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="container py-5">
+        <h2>Projects</h2>
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-left"   data-aos-duration="1000" >
+            <div class="card">
+              <img
+                src="https://img.freepik.com/free-vector/isometric-blogging-concept_23-2148004575.jpg?w=740&t=st=1707796690~exp=1707797290~hmac=9dde5c4841a511d4e0ff7825244a522594c3c87fd0318e377dc37003cfc8d3ea"
+                class="card-img-top"
+                alt="Project 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Project 1: Personal Blog</h5>
+                <p class="card-text">
+                  A personal blog built using HTML, CSS, and JavaScript.
+                  Features include creating, editing, and deleting blog posts.
+                </p>
+                <a href="#" class="btn btn-primary">View Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4" data-aos="fade-left"  data-aos-duration="1500" >
+            <div class="card">
+              <img
+                src="https://img.freepik.com/premium-vector/flat-design-illustration-be-smart-buyer-online-shopper-e-commerce_106954-20.jpg?w=740"
+                class="card-img-top"
+                alt="Project 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Project 2: E-commerce Website</h5>
+                <p class="card-text">
+                  An e-commerce website built using HTML, CSS, and Bootstrap.
+                  Features include product listing, shopping cart, and checkout
+                  functionality.
+                </p>
+                <a href="#" class="btn btn-primary">View Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4" data-aos="fade-left"  data-aos-duration="2000">
+            <div class="card">
+              <img
+                src="https://img.freepik.com/free-vector/online-weather-forecast-smartphone-screen-isometric-composition-with-female-character-presenter-blue-background-3d-vector-illustration_1284-69840.jpg?w=740&t=st=1707796821~exp=1707797421~hmac=10b13f0fd08695af1b4c2d84041f9d824dc885bdd645b896c23d77c653bfba27"
+                class="card-img-top"
+                alt="Project 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Project 3: Weather App</h5>
+                <p class="card-text">
+                  A weather app built using HTML, CSS, JavaScript, and the
+                  OpenWeatherMap API. Features include current weather
+                  information and 5-day forecast.
+                </p>
+                <a href="#" class="btn btn-primary">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="container py-5" data-aos="fade-right">
+        <h2>Skills</h2>
+        <div class="mb-3">
+          <h4>C Programming</h4>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 0"
+              aria-valuenow="80"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              80%
+            </div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <h4>Python</h4>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 0"
+              aria-valuenow="70"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              70%
+            </div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <h4>HTML</h4>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 0"
+              aria-valuenow="90"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              90%
+            </div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <h4>CSS</h4>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 0"
+              aria-valuenow="85"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              85%
+            </div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <h4>Communication</h4>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 0"
+              aria-valuenow="95"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              95%
+            </div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <h4>Problem Solving</h4>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 0"
+              aria-valuenow="90"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              90%
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="container py-5">
+        <h2>Education</h2>
+        <div class="timeline">
+          <div class="timeline-event" data-aos="fade-up" data-aos-duration="1000">
+            <div class="card border-light mb-3">
+              <div class="card-body">
+                <h4 class="card-title">Bachelor of Computer Applications</h4>
+                <p class="card-text">RCM Bhubaneswar - Currently Pursuing</p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-event" data-aos="fade-up" data-aos-duration="1250">
+            <div class="card border-light mb-3">
+              <div class="card-body">
+                <h4 class="card-title">12th Grade</h4>
+                <p class="card-text">JNV Bijnor - Completed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="container py-5" data-aos="fade-down">
+        <h2>Contact Me</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Phone</h4>
+            <p>(+91) 7017146264</p>
+          </div>
+          <div class="col-md-6">
+            <h4>Email</h4>
+            <p>rajputpragya2003@gmail.com</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Address</h4>
+            <p>123 Main St, Anytown, USA</p>
+          </div>
+          <div class="col-md-6">
+            <h4>Working Hours</h4>
+            <p>Monday - Friday: 9:00 AM to 5:00 PM</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <!-- Your footer content here -->
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+    AOS.init(
+        {
+            duration: 1000,
+            easing: "ease-in-out",
+        }
+    );
+    </script>
+    <script>
+      // Your custom JavaScript code here
+
+      window.addEventListener("scroll", function () {
+        var skillsTop = document.getElementById("skills").offsetTop;
+        var skillsHeight = document.getElementById("skills").offsetHeight;
+        var windowHeight = window.innerHeight;
+        var windowBottom = window.pageYOffset + windowHeight;
+        if (
+          windowBottom > skillsTop &&
+          windowBottom < skillsTop + skillsHeight
+        ) {
+          var progressBars = document.querySelectorAll(".progress-bar");
+          progressBars.forEach(function (bar) {
+            bar.style.width = bar.getAttribute("aria-valuenow") + "%";
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
